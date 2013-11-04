@@ -26,5 +26,9 @@ int main() {
     fractResult = Fraction::Divide(fract1, fract2);
     printf("\nA/B = %d/%d", fractResult.GetNumenator(),
         fractResult.GetDenominator());
+    
+    Fraction fract4(1, 0);
+	Fraction fract3(0, 2);
+    fractResult = Fraction::Divide(fract1, fract3);
     return 0;
 }
